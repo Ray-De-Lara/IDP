@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/IDP/static/css/main.7d1996a8.chunk.css",
+    "main.js": "/IDP/static/js/main.71f5096b.chunk.js",
+    "main.js.map": "/IDP/static/js/main.71f5096b.chunk.js.map",
+    "runtime-main.js": "/IDP/static/js/runtime-main.f1d16dc0.js",
+    "runtime-main.js.map": "/IDP/static/js/runtime-main.f1d16dc0.js.map",
+    "static/js/2.5825d557.chunk.js": "/IDP/static/js/2.5825d557.chunk.js",
+    "static/js/2.5825d557.chunk.js.map": "/IDP/static/js/2.5825d557.chunk.js.map",
+    "index.html": "/IDP/index.html",
+    "static/css/main.7d1996a8.chunk.css.map": "/IDP/static/css/main.7d1996a8.chunk.css.map",
+    "static/js/2.5825d557.chunk.js.LICENSE.txt": "/IDP/static/js/2.5825d557.chunk.js.LICENSE.txt",
+    "static/media/RadialLeko21deg.32e9a2c6.svg": "/IDP/static/media/RadialLeko21deg.32e9a2c6.svg",
+    "static/media/RadialLeko25deg.b3ff0d58.svg": "/IDP/static/media/RadialLeko25deg.b3ff0d58.svg",
+    "static/media/RadialLeko35deg.9f855588.svg": "/IDP/static/media/RadialLeko35deg.9f855588.svg",
+    "static/media/RadialLeko56deg.28f92c75.svg": "/IDP/static/media/RadialLeko56deg.28f92c75.svg",
+    "static/media/bigchair.4ff8af78.svg": "/IDP/static/media/bigchair.4ff8af78.svg",
+    "static/media/fresnel6in.09acd789.svg": "/IDP/static/media/fresnel6in.09acd789.svg",
+    "static/media/fresnel8in.50def9a6.svg": "/IDP/static/media/fresnel8in.50def9a6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1d16dc0.js",
+    "static/js/2.5825d557.chunk.js",
+    "static/css/main.7d1996a8.chunk.css",
+    "static/js/main.71f5096b.chunk.js"
+  ]
+}
