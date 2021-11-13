@@ -1,0 +1,21 @@
+.tripod-container {
+  width: auto;
+  height: auto;
+  margin: 28px 0px 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.base {
+  /* background-color: #1db342; */
+  width: 1000px;
+  height: 4px;
+  z-index: -1;
+  position: fixed;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}

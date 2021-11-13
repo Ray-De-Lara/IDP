@@ -1,0 +1,17 @@
+.square-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+/* .square { */
+/* background-color: #6f6f6f; */
+/* background: transparent;
+  border: 1px solid #6f6f6f;
+  width: 75px;
+  height: 75px; */
+/* border-radius: 50%; */
+/* } */
