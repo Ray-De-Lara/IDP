@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/idp/static/css/main.44009fcc.chunk.css",
-    "main.js": "/idp/static/js/main.d1c0097f.chunk.js",
-    "main.js.map": "/idp/static/js/main.d1c0097f.chunk.js.map",
+    "main.js": "/idp/static/js/main.48663c54.chunk.js",
+    "main.js.map": "/idp/static/js/main.48663c54.chunk.js.map",
     "runtime-main.js": "/idp/static/js/runtime-main.68901e63.js",
     "runtime-main.js.map": "/idp/static/js/runtime-main.68901e63.js.map",
     "static/js/2.cf0dae34.chunk.js": "/idp/static/js/2.cf0dae34.chunk.js",
@@ -10,18 +10,32 @@
     "index.html": "/idp/index.html",
     "static/css/main.44009fcc.chunk.css.map": "/idp/static/css/main.44009fcc.chunk.css.map",
     "static/js/2.cf0dae34.chunk.js.LICENSE.txt": "/idp/static/js/2.cf0dae34.chunk.js.LICENSE.txt",
+    "static/media/ALeko11.f4caafaa.svg": "/idp/static/media/ALeko11.f4caafaa.svg",
+    "static/media/ALeko18.0317285f.svg": "/idp/static/media/ALeko18.0317285f.svg",
+    "static/media/ALeko19.6a371069.svg": "/idp/static/media/ALeko19.6a371069.svg",
+    "static/media/ALeko23.80a16da2.svg": "/idp/static/media/ALeko23.80a16da2.svg",
+    "static/media/ALeko26.90e2e721.svg": "/idp/static/media/ALeko26.90e2e721.svg",
+    "static/media/ALeko28.38dd9710.svg": "/idp/static/media/ALeko28.38dd9710.svg",
+    "static/media/ALeko37.523531d7.svg": "/idp/static/media/ALeko37.523531d7.svg",
+    "static/media/ALeko38.9811686d.svg": "/idp/static/media/ALeko38.9811686d.svg",
+    "static/media/ALeko48.ff658de5.svg": "/idp/static/media/ALeko48.ff658de5.svg",
+    "static/media/ALeko55.4392d8e7.svg": "/idp/static/media/ALeko55.4392d8e7.svg",
     "static/media/RadialLeko21deg.32e9a2c6.svg": "/idp/static/media/RadialLeko21deg.32e9a2c6.svg",
     "static/media/RadialLeko25deg.b3ff0d58.svg": "/idp/static/media/RadialLeko25deg.b3ff0d58.svg",
     "static/media/RadialLeko35deg.9f855588.svg": "/idp/static/media/RadialLeko35deg.9f855588.svg",
     "static/media/RadialLeko56deg.28f92c75.svg": "/idp/static/media/RadialLeko56deg.28f92c75.svg",
     "static/media/bigchair.4ff8af78.svg": "/idp/static/media/bigchair.4ff8af78.svg",
     "static/media/fresnel6in.09acd789.svg": "/idp/static/media/fresnel6in.09acd789.svg",
-    "static/media/fresnel8in.50def9a6.svg": "/idp/static/media/fresnel8in.50def9a6.svg"
+    "static/media/fresnel8in.50def9a6.svg": "/idp/static/media/fresnel8in.50def9a6.svg",
+    "static/media/par38.d749cf64.svg": "/idp/static/media/par38.d749cf64.svg",
+    "static/media/par4.2d992754.svg": "/idp/static/media/par4.2d992754.svg",
+    "static/media/par56.87d7d55c.svg": "/idp/static/media/par56.87d7d55c.svg",
+    "static/media/par64.319bff69.svg": "/idp/static/media/par64.319bff69.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.68901e63.js",
     "static/js/2.cf0dae34.chunk.js",
     "static/css/main.44009fcc.chunk.css",
-    "static/js/main.d1c0097f.chunk.js"
+    "static/js/main.48663c54.chunk.js"
   ]
 }

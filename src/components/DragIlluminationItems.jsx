@@ -18,11 +18,11 @@ import ALeko37 from '../pictures/ALeko37.svg'
 import ALeko38 from '../pictures/ALeko38.svg'
 import ALeko48 from '../pictures/ALeko48.svg'
 import ALeko55 from '../pictures/ALeko55.svg'
-import Silla from '../pictures/bigchair.svg'
+import Silla from '../pictures/silla.svg'
 import React from 'react'
 import './Drag.css'
 import { DragItems } from './DragItems';
-import { BasesItems } from './BasesItems';
+
 
 
 const ItemsList = [
@@ -145,7 +145,7 @@ const ItemsList = [
                 name: "Leko Axial 3.5x5 48deg"
             },
             {
-                id:'14',
+                id:'23',
                 id2: 'ALeko',
                 url : ALeko55,
                 name: "Leko Axial 4.5x6.5 55deg"
@@ -162,11 +162,11 @@ const ItemsList = [
 
     // },
     {
-        id:'14',
+        id:'24',
         packetName : 'Diseno', 
         children : [
             {
-                id:'15',
+                id:'25',
                 id2 : 'Silla',
                 url : Silla,
                 name: "Silla"

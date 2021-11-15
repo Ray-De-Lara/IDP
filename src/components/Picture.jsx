@@ -52,7 +52,7 @@ function Picture({id, url,id2}) {
     <div id={"item-container"+id}>
         <div style={id2==="Mesa" ? style2 : style1}>
         <DragPreviewImage connect={preview} src={url}/>
-        <div onClick={()=>{erase(document.getElementById("item-container"+id))}}><i className="fas fa-times"></i></div>
+        <div onClick={()=>{erase(document.getElementById("item-container"+id))}}><i className="fas fa-times" style={{color : "rgb(255,0,0)"}}></i></div>
         <img
             id ={id} 
             ref={drag}
@@ -66,7 +66,7 @@ function Picture({id, url,id2}) {
         />
         </div>
 
-            <div className="fas fa-sync-alt"onClick={()=>{turn(document.getElementById(id))}} ></div>
+            <div className="fas fa-sync-alt"onClick={()=>{turn(document.getElementById(id))}} style={{color : "rgb(0,255,50)"}}></div>
     </div>
         </>
     );

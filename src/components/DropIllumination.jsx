@@ -18,6 +18,7 @@ import ALeko37 from '../pictures/ALeko37.svg'
 import ALeko38 from '../pictures/ALeko38.svg'
 import ALeko48 from '../pictures/ALeko48.svg'
 import ALeko55 from '../pictures/ALeko55.svg'
+import Silla from '../pictures/silla.svg'
 import React, { useState } from 'react'
 import { useDrop } from 'react-dnd'
 import { Picture } from './Picture'
@@ -141,10 +142,16 @@ const PictureList = [
         name: "Leko Axial 3.5x5 48deg"
     },
     {
-        id:'14',
+        id:'23',
         id2: 'ALeko',
         url : ALeko55,
         name: "Leko Axial 4.5x6.5 55deg"
+    },
+    {
+        id:'25',
+        id2: 'Diseno',
+        url : Silla,
+        name: "Silla"
     },
 ];
 
@@ -187,7 +194,7 @@ function DropIllumination({numero}) {
     return (
         <div>
             <div className="square-container" id="square-container" ref={drop} >
-                <div className="square" style={{backgroundColor : canDrop ? "rgba(255, 0, 0, 0.5)" : "white"}} id={numero}  ></div>
+                <div className="square" style={{backgroundColor : canDrop ? "rgba(255, 0, 0, 0.5)" : "transparent"}} id={numero}  ></div>
                 <div>
                     {board.map((picture) => {
                         return <Picture

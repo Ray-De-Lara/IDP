@@ -19,7 +19,7 @@ function Map() {
         <>
         
         <div>
-            <div className="map-container" >
+            <div className="map-container">
 
                 <Tripod key={newRandNum}/>
                 <Tripod key={newRandNum}/>
