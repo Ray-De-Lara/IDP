@@ -93,8 +93,6 @@ function DragIlluminationItems() {
      return (
         <div className="picture-container">
             <div className="pictures">
-                
-
 
 
 {        ItemsList.map((e)=>{

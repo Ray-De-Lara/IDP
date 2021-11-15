@@ -7,22 +7,12 @@ import './Tripod.css'
 
 
 function Tripod({id}) {
-    // const getId = ()=>{
-    //     let rannum = Math.random(1,0);
-    //     console.log(rannum)
-    //     return rannum;
-    // }
-    let rannum = Math.random(1,0);
-    
-
-
 
 
 const addBaras = () => {
     var points = []
     for(var i=0; i<12; i++){ 
         points.push(<DropIllumination numero={i} />)
-        
 
     }
     return points 
@@ -47,6 +37,7 @@ const addBaras = () => {
             
                 
                     <div className="top">
+                        
                         {addBaras()}
 
                     </div>

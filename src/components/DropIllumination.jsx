@@ -73,14 +73,19 @@ function DropIllumination({numero}) {
 
 
     // {isOver}
-    const [, drop] = useDrop(() => ({
+    const [{canDrop}, drop] = useDrop(() => ({
         accept: "image",
         drop: (picture) => {
             { addImageToBoard(picture.id) 
-            const square = document.getElementById(numero)
-            square.style.display = "none"
+                const square = document.getElementById(numero)
+                square.style.display = "none"
             }
         },
+        
+        collect: (monitor) =>({
+            canDrop : !!monitor.canDrop(),
+            
+        })
 
     }))
 
@@ -90,18 +95,17 @@ function DropIllumination({numero}) {
 
     return (
         <div>
-            <div className="square-container" id="square-container" ref={drop}>
-                <div className="square" id={numero} ></div>
+            <div className="square-container" id="square-container" ref={drop} >
+                <div className="square" style={{backgroundColor : canDrop ? "rgba(255, 0, 0, 0.5)" : "white"}} id={numero}  ></div>
                 <div>
                     {board.map((picture) => {
-                            
                         return <Picture
-                            url={picture.url}
-                            id={totpicture}
-                            key={picture.id}
-                            name={picture.name}
-                            id2={picture.id2}
-
+                        url={picture.url}
+                        id={totpicture}
+                        key={picture.id}
+                        name={picture.name}
+                        id2={picture.id2}
+                        
                         />
                     })}
                 </div>

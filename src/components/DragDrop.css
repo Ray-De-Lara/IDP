@@ -7,11 +7,9 @@
   position: relative;
   z-index: 1;
 }
-/* .square { */
-/* background-color: #6f6f6f; */
-/* background: transparent;
-  border: 1px solid #6f6f6f;
+.square {
+  background: transparent;
+
   width: 75px;
-  height: 75px; */
-/* border-radius: 50%; */
-/* } */
+  height: 75px;
+}

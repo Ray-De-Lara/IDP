@@ -52,7 +52,7 @@ function Picture({id, url,id2}) {
     <div id={"item-container"+id}>
         <div style={id2==="Mesa" ? style2 : style1}>
         <DragPreviewImage connect={preview} src={url}/>
-        <div onClick={()=>{erase(document.getElementById("item-container"+id))}}><i class="fas fa-times"></i></div>
+        <div onClick={()=>{erase(document.getElementById("item-container"+id))}}><i className="fas fa-times"></i></div>
         <img
             id ={id} 
             ref={drag}
