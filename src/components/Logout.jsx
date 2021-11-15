@@ -6,7 +6,7 @@ function Logout() {
     return (
 
         <div>
-            <button onClick={()=>{logout({returnTo : window.location.origin})}}>Logout</button>
+            <button onClick={()=>{logout({returnTo : "https://ray-de-lara.github.io/idp"})}}>Logout</button>
         </div>
     )
 }

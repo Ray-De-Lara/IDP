@@ -2,7 +2,6 @@ import {DndProvider} from 'react-dnd'
 import {HTML5Backend} from'react-dnd-html5-backend'
 import './App.css';
 import { Login } from './components/Login';
-import { Logout } from './components/Logout';
 import { DragDrop } from './components/DragDrop';
 import {Map} from './components/Map'
 import {Header} from './components/Header'

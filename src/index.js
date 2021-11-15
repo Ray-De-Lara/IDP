@@ -9,7 +9,7 @@ ReactDOM.render(
     <Auth0Provider 
       domain="dev-mkcpp6h3.us.auth0.com" 
       clientId="PgUNZFu3bi10dtiWMw3hmUa8wSSbEGUq" 
-      redirectUri={window.location.origin} >
+      redirectUri="https://ray-de-lara.github.io/idp" >
     <App />
     </Auth0Provider>
   </React.StrictMode>,
