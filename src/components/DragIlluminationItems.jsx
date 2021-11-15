@@ -4,6 +4,20 @@ import RLeko21 from '../pictures/RadialLeko21deg.svg'
 import RLeko25 from '../pictures/RadialLeko21deg.svg'
 import RLeko35 from '../pictures/RadialLeko21deg.svg'
 import RLeko56 from '../pictures/RadialLeko21deg.svg'
+import Par4 from '../pictures/par4.svg'
+import Par38 from '../pictures/par38.svg'
+import Par56 from '../pictures/par56.svg'
+import Par64 from '../pictures/par64.svg'
+import ALeko11 from '../pictures/ALeko11.svg'
+import ALeko18 from '../pictures/ALeko18.svg'
+import ALeko19 from '../pictures/ALeko19.svg'
+import ALeko23 from '../pictures/ALeko23.svg'
+import ALeko26 from '../pictures/ALeko26.svg'
+import ALeko28 from '../pictures/ALeko28.svg'
+import ALeko37 from '../pictures/ALeko37.svg'
+import ALeko38 from '../pictures/ALeko38.svg'
+import ALeko48 from '../pictures/ALeko48.svg'
+import ALeko55 from '../pictures/ALeko55.svg'
 import Silla from '../pictures/bigchair.svg'
 import React from 'react'
 import './Drag.css'
@@ -30,51 +44,132 @@ const ItemsList = [
             },
             {
                 id: '5',
-                id2: 'Leko',
+                id2: 'RLeko',
                 url: RLeko21,
                 name: 'Leko Radial 21 deg'
             },
             {
                 id: '6',
-                id2: 'Leko',
+                id2: 'RLeko',
                 url: RLeko25,
                 name: 'Leko Radial 25 deg'
             },
             {
                 id: '7',
-                id2: 'Leko',
+                id2: 'RLeko',
                 url: RLeko35,
                 name: 'Leko Radial 35 deg'
             },
             {
                 id: '8',
-                id2: 'Leko',
+                id2: 'RLeko',
                 url: RLeko56,
                 name: 'Leko Radial 56 deg'
             },
-        ],
-    },
-    {
-        id: '9',
-        packetName : 'Baras',
-        children : [
             {
                 id:'10',
-                name: "Bara"
+                id2: 'Par',
+                url : Par4,
+                name: "Par 4"
             },
-
-        ]
-
+            {
+                id:'11',
+                id2: 'Par',
+                url : Par38,
+                name: "Par 38"
+            },
+            {
+                id:'12',
+                id2: 'Par',
+                url : Par56,
+                name: "Par 56"
+            },
+            {
+                id:'13',
+                id2: 'Par',
+                url : Par64,
+                name: "Par 64"
+            },
+            {
+                id:'14',
+                id2: 'ALeko',
+                url : ALeko11,
+                name: "Leko Axial 6x22 11deg"
+            },
+            {
+                id:'15',
+                id2: 'ALeko',
+                url : ALeko18,
+                name: "Leko Axial 3.5x12 18deg"
+            },
+            {
+                id:'16',
+                id2: 'ALeko',
+                url : ALeko19,
+                name: "Leko Axial 6x16 19deg"
+            },
+            {
+                id:'17',
+                id2: 'ALeko',
+                url : ALeko23,
+                name: "Leko Axial 3.5x10 23deg"
+            },
+            {
+                id:'18',
+                id2: 'ALeko',
+                url : ALeko26,
+                name: "Leko Axial 6x12 26deg"
+            },
+            {
+                id:'19',
+                id2: 'ALeko',
+                url : ALeko28,
+                name: "Leko Axial 3.5x8 28deg"
+            },
+            {
+                id:'20',
+                id2: 'ALeko',
+                url : ALeko37,
+                name: "Leko Axial 6x9 37deg"
+            },
+            {
+                id:'21',
+                id2: 'ALeko',
+                url : ALeko38,
+                name: "Leko Axial 3.5x6 38deg"
+            },
+            {
+                id:'22',
+                id2: 'ALeko',
+                url : ALeko48,
+                name: "Leko Axial 3.5x5 48deg"
+            },
+            {
+                id:'14',
+                id2: 'ALeko',
+                url : ALeko55,
+                name: "Leko Axial 4.5x6.5 55deg"
+            },
+        ],
     },
+    // {
+    //     id: '9',
+    //     packetName : 'Par',
+    //     children : [
+
+
+    //     ]
+
+    // },
     {
-        id:'11',
+        id:'14',
         packetName : 'Diseno', 
         children : [
             {
-                id:'12',
+                id:'15',
                 id2 : 'Silla',
                 url : Silla,
-                name: "Big Silla"
+                name: "Silla"
             }
         ]
     }
@@ -84,7 +179,7 @@ const ItemsList = [
 
 function DragIlluminationItems() {
     const nuevaI = [];
-    const nuevaB = [];
+    // const nuevaB = [];
     const nuevaC = [];
 
 
@@ -97,19 +192,19 @@ function DragIlluminationItems() {
 
 {        ItemsList.map((e)=>{
             if(e.packetName ==='Illumination'){
-                const nuevI = e.children.slice(0,8);
+                const nuevI = e.children.slice(0,22);
                 nuevI.map((picture)=>{
                     nuevaI.push(picture);
                     return nuevaI;
                 })
             }
-            else if (e.packetName ==='Baras'){
-                const nuevB = e.children.slice(0,1);
-                nuevB.map((base)=>{
-                    nuevaB.push(base);
-                    return nuevaB;
-                })
-            }
+            // else if (e.packetName ==='Baras'){
+            //     const nuevB = e.children.slice(0,1);
+            //     nuevB.map((base)=>{
+            //         nuevaB.push(base);
+            //         return nuevaB;
+            //     })
+            // }
             else if (e.packetName ==='Diseno'){
                 const nuevC = e.children.slice(0,1);
                 nuevC.map((elemento)=>{
@@ -138,12 +233,12 @@ function DragIlluminationItems() {
                         })}
                     </nav>
                     
-                    <div className="expand" onClick={()=>{document.getElementById("leko-container").classList.toggle("mostrar")}}>Leko
+                    <div className="expand" onClick={()=>{document.getElementById("rleko-container").classList.toggle("mostrar")}}>Radial Leko
                     <i className="fas fa-arrow-down" ></i></div>
                     
-                    <nav className="leko-container" id="leko-container">
+                    <nav className="rleko-container" id="rleko-container">
                         {nuevaI.map((picture)=>{
-                            if(picture.id2 === "Leko"){
+                            if(picture.id2 === "RLeko"){
                             return <DragItems 
                             name ={picture.name}
                             id={picture.id} 
@@ -152,8 +247,35 @@ function DragIlluminationItems() {
                             }
                         })}
                     </nav>
+                    <div className="expand" onClick={()=>{document.getElementById("par-container").classList.toggle("mostrar")}}>Par
+                    <i className="fas fa-arrow-down" ></i></div>
                     
+                    <nav className="par-container" id="par-container">
+                        {nuevaI.map((picture)=>{
+                            if(picture.id2 === "Par"){
+                            return <DragItems 
+                            name ={picture.name}
+                            id={picture.id} 
+                            key={picture.id}
+                            />;
+                            }
+                        })}
+                    </nav>
+                    <div className="expand" onClick={()=>{document.getElementById("aleko-container").classList.toggle("mostrar")}}>Axial Leko
+                    <i className="fas fa-arrow-down" ></i></div>
                     
+                    <nav className="aleko-container" id="aleko-container">
+                        {nuevaI.map((picture)=>{
+                            if(picture.id2 === "ALeko"){
+                            return <DragItems 
+                            name ={picture.name}
+                            id={picture.id} 
+                            key={picture.id}
+                            />;
+                            }
+                        })}
+                    </nav>
+{/*                     
                     <div className="expand" onClick={()=>{document.getElementById("bara-container").classList.toggle("mostrar")}}>Baras
                     <i className="fas fa-arrow-down" ></i></div>
                     
@@ -163,7 +285,7 @@ function DragIlluminationItems() {
                         name={base.name}
                         key={base.id}/>;                    
                     })}
-                    </nav>
+                    </nav> */}
 
                     <div className="expand" onClick={()=>{document.getElementById("diseno-container").classList.toggle("mostrar")}}>Diseno
                     <i className="fas fa-arrow-down" ></i></div>

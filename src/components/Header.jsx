@@ -19,7 +19,7 @@ function Header() {
             <h2 style={{marginBottom:"1px"}}>{user.name}</h2>
             {/* <img src={user.picture} alt={user.name} style={{borderRadius : "50%", display:'flex', alignItems:"center", justifyContent:"center"}}/> */}
             {/* <p>Email: {user.email}</p> */}
-            <button onClick={()=>{logout({returnTo : "https://ray-de-lara.github.io/idp"})}}>Logout</button>
+            <button style={{width:"180px", height :"50px",color : "#fefeff" ,backgroundColor : "#0059d6", border:"none", borderRadius:"5px", fontSize:"18px"}}  onClick={()=>{logout({returnTo : "https://ray-de-lara.github.io/idp"})}}>Logout</button>
         </div>
         
         </header>

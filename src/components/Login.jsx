@@ -10,7 +10,7 @@ function Login() {
         <img src={logo} alt="IDP" style={{width:"170px", height:"80px"}}/>
         </div>
         <div>
-            <button id="btn-login" onClick={()=>{loginWithRedirect()}}>Login</button>
+            <button style={{width:"180px", height :"50px",color : "#fefeff" ,backgroundColor : "#0059d6", border:"none", borderRadius:"5px", fontSize:"18px"}} id="btn-login" onClick={()=>{loginWithRedirect()}}>Login</button>
         </div>
         </>
     )
